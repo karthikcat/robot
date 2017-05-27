@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20170430 19:52:20.650" generator="Robot 3.0.1 (Python 2.7.4 on win32)">
-<suite source="C:\Users\kartseka\workspace\demo" id="s1" name="Demo">
-<suite source="C:\Users\kartseka\workspace\demo\testcase" id="s1-s1" name="Testcase">
-<suite source="C:\Users\kartseka\workspace\demo\testcase\TC1.robot" id="s1-s1-s1" name="TC1">
+<robot generated="20170527 10:36:51.713" generator="Robot 3.0.2 (Python 2.7.4 on win32)">
+<suite source="C:\Users\kartseka\git\robot\demo" id="s1" name="Demo">
+<suite source="C:\Users\kartseka\git\robot\demo\testcase" id="s1-s1" name="Testcase">
+<suite source="C:\Users\kartseka\git\robot\demo\testcase\TC1.robot" id="s1-s1-s1" name="TC1">
 <test id="s1-s1-s1-t1" name="Login">
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to given URL.</doc>
@@ -10,15 +10,15 @@
 <arg>http:www.facebook.com</arg>
 <arg>ff</arg>
 </arguments>
-<msg timestamp="20170430 19:52:20.947" level="INFO">Opening browser 'ff' to base url 'http:www.facebook.com'</msg>
-<status status="PASS" endtime="20170430 19:52:28.141" starttime="20170430 19:52:20.947"></status>
+<msg timestamp="20170527 10:36:52.110" level="INFO">Opening browser 'ff' to base url 'http:www.facebook.com'</msg>
+<status status="PASS" endtime="20170527 10:37:03.132" starttime="20170527 10:36:52.109"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="Selenium2Library">
 <doc>Sets current browser's implicit wait in seconds.</doc>
 <arguments>
 <arg>10</arg>
 </arguments>
-<status status="PASS" endtime="20170430 19:52:28.156" starttime="20170430 19:52:28.143"></status>
+<status status="PASS" endtime="20170527 10:37:03.141" starttime="20170527 10:37:03.133"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -26,15 +26,15 @@
 <arg>${Username}</arg>
 <arg>9962365916</arg>
 </arguments>
-<msg timestamp="20170430 19:52:28.158" level="INFO">Typing text '9962365916' into text field 'xpath=.//*[@id='email']'</msg>
-<status status="PASS" endtime="20170430 19:52:28.356" starttime="20170430 19:52:28.157"></status>
+<msg timestamp="20170527 10:37:03.142" level="INFO">Typing text '9962365916' into text field 'xpath=.//*[@id='email']'</msg>
+<status status="PASS" endtime="20170527 10:37:03.352" starttime="20170527 10:37:03.142"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="Selenium2Library">
 <doc>Sets current browser's implicit wait in seconds.</doc>
 <arguments>
 <arg>10</arg>
 </arguments>
-<status status="PASS" endtime="20170430 19:52:28.362" starttime="20170430 19:52:28.357"></status>
+<status status="PASS" endtime="20170527 10:37:03.360" starttime="20170527 10:37:03.353"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given `text` into text field identified by `locator`.</doc>
@@ -42,37 +42,37 @@
 <arg>${Password}</arg>
 <arg>karthik123</arg>
 </arguments>
-<msg timestamp="20170430 19:52:28.363" level="INFO">Typing text 'karthik123' into text field 'xpath=.//*[@id='pass']'</msg>
-<status status="PASS" endtime="20170430 19:52:28.437" starttime="20170430 19:52:28.362"></status>
+<msg timestamp="20170527 10:37:03.362" level="INFO">Typing text 'karthik123' into text field 'xpath=.//*[@id='pass']'</msg>
+<status status="PASS" endtime="20170527 10:37:03.726" starttime="20170527 10:37:03.361"></status>
 </kw>
 <kw name="Set Browser Implicit Wait" library="Selenium2Library">
 <doc>Sets current browser's implicit wait in seconds.</doc>
 <arguments>
 <arg>10</arg>
 </arguments>
-<status status="PASS" endtime="20170430 19:52:28.441" starttime="20170430 19:52:28.437"></status>
+<status status="PASS" endtime="20170527 10:37:03.735" starttime="20170527 10:37:03.727"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by `locator`.</doc>
 <arguments>
 <arg>${Login}</arg>
 </arguments>
-<msg timestamp="20170430 19:52:28.442" level="INFO">Clicking element 'id=loginbutton'.</msg>
-<status status="PASS" endtime="20170430 19:52:28.547" starttime="20170430 19:52:28.442"></status>
+<msg timestamp="20170527 10:37:03.737" level="INFO">Clicking element 'id=loginbutton'.</msg>
+<status status="PASS" endtime="20170527 10:37:03.862" starttime="20170527 10:37:03.736"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>10</arg>
 </arguments>
-<msg timestamp="20170430 19:52:38.548" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" endtime="20170430 19:52:38.549" starttime="20170430 19:52:28.547"></status>
+<msg timestamp="20170527 10:37:13.864" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20170527 10:37:13.864" starttime="20170527 10:37:03.863"></status>
 </kw>
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20170430 19:52:38.886" starttime="20170430 19:52:38.550"></status>
+<status status="PASS" endtime="20170527 10:37:15.349" starttime="20170527 10:37:13.865"></status>
 </kw>
-<status status="PASS" endtime="20170430 19:52:38.886" critical="yes" starttime="20170430 19:52:20.945"></status>
+<status status="PASS" endtime="20170527 10:37:15.350" critical="yes" starttime="20170527 10:36:52.108"></status>
 </test>
 <doc>1)Open Facebook in FireFox Broswer
 2)Enter the Username
@@ -80,23 +80,104 @@
 4)Click Login
 5)Wait for 20sec
 6)Close Broswer</doc>
-<status status="PASS" endtime="20170430 19:52:38.888" starttime="20170430 19:52:20.729"></status>
+<status status="PASS" endtime="20170527 10:37:15.352" starttime="20170527 10:36:51.823"></status>
 </suite>
-<status status="PASS" endtime="20170430 19:52:38.892" starttime="20170430 19:52:20.726"></status>
+<suite source="C:\Users\kartseka\git\robot\demo\testcase\TC2.robot" id="s1-s1-s2" name="TC2">
+<test id="s1-s1-s2-t1" name="Login">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http:www.facebook.com</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20170527 10:37:15.368" level="INFO">Opening browser 'ff' to base url 'http:www.facebook.com'</msg>
+<status status="PASS" endtime="20170527 10:37:25.959" starttime="20170527 10:37:15.367"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="Selenium2Library">
+<doc>Sets current browser's implicit wait in seconds.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<status status="PASS" endtime="20170527 10:37:25.970" starttime="20170527 10:37:25.960"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${Username}</arg>
+<arg>9962365916</arg>
+</arguments>
+<msg timestamp="20170527 10:37:25.973" level="INFO">Typing text '9962365916' into text field 'xpath=.//*[@id='email']'</msg>
+<status status="PASS" endtime="20170527 10:37:26.250" starttime="20170527 10:37:25.971"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="Selenium2Library">
+<doc>Sets current browser's implicit wait in seconds.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<status status="PASS" endtime="20170527 10:37:26.259" starttime="20170527 10:37:26.251"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${Password}</arg>
+<arg>karthik123</arg>
+</arguments>
+<msg timestamp="20170527 10:37:26.261" level="INFO">Typing text 'karthik123' into text field 'xpath=.//*[@id='pass']'</msg>
+<status status="PASS" endtime="20170527 10:37:26.389" starttime="20170527 10:37:26.260"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="Selenium2Library">
+<doc>Sets current browser's implicit wait in seconds.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<status status="PASS" endtime="20170527 10:37:26.397" starttime="20170527 10:37:26.390"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Login}</arg>
+</arguments>
+<msg timestamp="20170527 10:37:26.399" level="INFO">Clicking element 'id=loginbutton'.</msg>
+<status status="PASS" endtime="20170527 10:37:26.743" starttime="20170527 10:37:26.398"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20170527 10:37:36.778" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20170527 10:37:36.779" starttime="20170527 10:37:26.744"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170527 10:37:38.197" starttime="20170527 10:37:36.780"></status>
+</kw>
+<status status="PASS" endtime="20170527 10:37:38.199" critical="yes" starttime="20170527 10:37:15.365"></status>
+</test>
+<doc>1)Open Facebook in FireFox Broswer
+2)Enter the Username
+3)Enter the Password
+4)Click Login
+5)Wait for 20sec
+6)Close Broswer</doc>
+<status status="PASS" endtime="20170527 10:37:38.202" starttime="20170527 10:37:15.356"></status>
 </suite>
-<status status="PASS" endtime="20170430 19:52:38.895" starttime="20170430 19:52:20.687"></status>
+<status status="PASS" endtime="20170527 10:37:38.207" starttime="20170527 10:36:51.819"></status>
+</suite>
+<status status="PASS" endtime="20170527 10:37:38.213" starttime="20170527 10:36:51.778"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="1">Critical Tests</stat>
-<stat fail="0" pass="1">All Tests</stat>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="Demo" pass="1">Demo</stat>
-<stat fail="0" id="s1-s1" name="Testcase" pass="1">Demo.Testcase</stat>
+<stat fail="0" id="s1" name="Demo" pass="2">Demo</stat>
+<stat fail="0" id="s1-s1" name="Testcase" pass="2">Demo.Testcase</stat>
 <stat fail="0" id="s1-s1-s1" name="TC1" pass="1">Demo.Testcase.TC1</stat>
+<stat fail="0" id="s1-s1-s2" name="TC2" pass="1">Demo.Testcase.TC2</stat>
 </suite>
 </statistics>
 <errors>
